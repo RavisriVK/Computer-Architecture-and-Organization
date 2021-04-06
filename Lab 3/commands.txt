@@ -1,0 +1,7 @@
+nasm -f elf CS19B081_1.asm
+ld -m elf_i386 -s CS19B081_1.o io.o -o CS19B081_1
+./CS19B081_1
+
+nasm -f elf CS19B081_2.asm
+ld -m elf_i386 -s CS19B081_2.o io.o -o CS19B081_2
+./CS19B081_2

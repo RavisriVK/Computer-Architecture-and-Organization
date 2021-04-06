@@ -1,0 +1,3 @@
+nasm -f elf test.asm
+ld -m elf_i386 -s test.o io.o -o test
+./test
